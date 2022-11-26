@@ -1,38 +1,201 @@
-.App {
+
+
+body * {
+  color: inherit;
+}
+.wedding-img1 {
+  width: 100%;
+}
+.top-nav {
+  padding: 15px;
+  background-color: #e72e77;
+}
+.bank-icon {
+  padding: 13px;
+  background: rgb(231, 46, 119);
+  color: rgb(255, 255, 255);
+}
+.select-div {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-between;
+  background-color: white;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 41%;
+  color: #e72e77;
+}
+.card-menu {
+  background-color: #fff;
+  color: #b4245d;
+  width: 56%;
+  margin-top: 5px;
+  margin-left: 20%;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.menu-bar {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.big-menu {
+  font-size: 24px;
+}
+.login-btn {
+  width: 110px;
+  padding: 5px;
+  border: none;
+  color: white;
+  /* text-decoration: none; */
+  border-radius: 10px;
+  margin-left: 30px;
+  font-size: 15px;
+  background-color: #b4245d;
+}
+.search-icon {
+  color: white;
+  font-size: 15px;
+  margin-left: 30px;
+  padding: 5px;
+  background: #b4245d;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.back-image {
+  height: 1000px;
+  background-image: url("https://image.wedmegood.com/resized/1900X/uploads/city_bg_image/1/delhi_bg.jpeg");
+}
+
+.h3-tag {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  position: relative;
+  top: 50%;
+}
+.select-tag {
+  margin-top: 31%;
+  width: 32%;
+  color: #e72e77;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.slider2 {
+  padding: 20px;
+  display: flex;
+  margin-top: 70px;
+  justify-content: center;
+}
+.side-padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.bOTXef {
+  background-color: #b4245d;
+  color: white;
+  padding-left: 0px !important;
+}
+.ccMvAH {
+  padding-left: 0px !important;
+}
+.fxWvvr {
+  height: 50% !important;
+}
+.hBVTtp {
+  margin: 5rem 0px !important;
+  font-size: 38px !important;
+}
+.fQkkzS {
+  height: 50vh !important;
+}
+.wedding-cat {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  margin-bottom: 30px;
+}
+.wedding-cat-sub {
+  display: flex;
+  justify-content: space-evenly;
+  width: 49%;
+  margin-bottom: 1%;
+  height: 120px;
+}
+.wedding-cat-sub-card {
+  display: flex;
+  justify-content: space-evenly;
+  width: 49%;
+  margin-bottom: 5%;
+  /* height: 120px; */
+}
+.color1 {
+  background-color: rgb(216, 223, 252);
+}
+.color2 {
+  background-color: rgb(244, 213, 194);
+}
+.color3 {
+  background-color: rgb(223, 178, 173);
+}
+.color4 {
+  background-color: rgb(207, 205, 184);
+}
+.color5 {
+  background-color: rgb(220, 247, 247);
+}
+.color6 {
+  background-color: rgb(229, 211, 189);
+}
+.img-6 {
+  position: relative;
+  left: 55px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.wed-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wed-title-link {
+  position: relative;
+  top: 27px;
+  text-decoration: none;
+  color: #b4245d;
+}
+
+.card-title-center {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.know-more-btn {
+  color: #fff;
+  background-color: #e72e77;
+  border: 1px solid #e72e77;
+  height: 45px;
+  width: 155px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* .know-more-btn:hover {
+  background-color: #e72e77;
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer-head {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.footer-head h4 {
+  color: #e72e77;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-head p {
+  line-height: 13px;
+}
+.menu-item p {
+  font-size: 12.5px;
 }
